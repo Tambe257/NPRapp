@@ -8,9 +8,10 @@
 
 		<body>
 			<div ng-controller="PlayerController">
-				<button ng-click="play()" class="button" ng-show="!playing">Play</button>
+				{{ programs }}
+				<!--<button ng-click="play()" class="button" ng-show="!playing">Play</button>
 				<button ng-click="stop()" class="button alert" ng-show="playing">Stop</button>
-				Playing Audio: <b>{{ playing }}</b>
+				Playing Audio: <b>{{ playing }}</b> -->
 			</div>
 			<div ng-controller="MyController">
 				<input type="text" ng-model="person.name" placeholder="Enter your name" />
